@@ -17,4 +17,4 @@ jobs:
       - run: npm ci
       - run: npx semantic-release
         env:
-          GH_TOKEN: ${{ secrets.test-2 }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
